@@ -1,0 +1,14 @@
+# Site settings
+title: Abdihaikal's Blog # Your blog title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write a short, compelling description for your blog here.
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "https://abdihaikal.github.io" # The base hostname & protocol for your site
+github_username: abdihaikal # Your GitHub username
+
+# Build settings
+markdown: kramdown
+theme: minima # Or the name of the theme you chose
+plugins:
+  - jekyll-feed
